@@ -1,0 +1,9 @@
+from typing import Any, Optional
+
+
+class FFmpegWriter:
+    def __init__(self, filename: str,
+                 inputdict: Optional[dict] = None, outputdict: Optional[dict] = None, verbosity: int = 0) -> None: ...
+
+    def writeFrame(self, im: Any) -> None: ...
+    def close(self) -> None: ...
