@@ -33,7 +33,7 @@ priority = "explicit"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.3.0"
+black = ">=23.3,<27.0"
 types-tqdm = "^4.65.0.1"
 mypy = "^0.991"
 types-ujson = "^5.7.0"
